@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace console_linq.examples
+namespace console_linq.Examples
 {
     public static class BasicListAndRange
     {

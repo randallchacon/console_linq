@@ -1,16 +1,8 @@
 ﻿/*Developed by Randall Chacón*/
-/*Uncomment class by class to test*/
-
+using console_linq.Objects.Menu;
 using console_linq.Examples;
 
-//BasicListAndRange.main();
+//Menu.show();
 
-//DeferredExecution.main();
+ElementAtAndElementAtOrDefault.main();
 
-//WhereFunction.main();
-
-//WhereObjects.main();
-
-//FirstAndFirstDefault.main();
-
-LastAndLastOrDefault.main();

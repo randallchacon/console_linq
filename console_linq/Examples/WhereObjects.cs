@@ -11,17 +11,11 @@ namespace console_linq.Examples
     {
         public static void main()
         {
-            var people = new List<Person>() { 
-                new Person { Name = "Randall" , Age = 70, dateAdmissionCompany = new DateTime(2022, 5, 2), Single = true},
-                new Person { Name = "Fernanda" , Age = 20, dateAdmissionCompany = new DateTime(2022, 1, 31), Single = false},
-                new Person { Name = "Angie" , Age = 15, dateAdmissionCompany = new DateTime(2020, 12, 20), Single = true},
-                new Person { Name = "Roger" , Age = 52, dateAdmissionCompany = new DateTime(2005, 05, 15), Single = false},
-                new Person { Name = "Teresa" , Age = 94, dateAdmissionCompany = DateTime.Now.AddDays(-1), Single = true}
-            };
+            var people = new People().peopleList;
 
             var peopleAge25OrYounger = people.Where(p => p.Age <= 25).ToList();
 
-            foreach(var person in peopleAge25OrYounger)
+            foreach (var person in peopleAge25OrYounger)
             {
                 Console.WriteLine($"{person.Name} is {person.Age} years old.");
             }
