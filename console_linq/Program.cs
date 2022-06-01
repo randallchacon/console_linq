@@ -4,4 +4,6 @@
 
 //DeferredExecution.main();
 
-WhereFunction.main();
+//WhereFunction.main();
+
+WhereObjects.main();
