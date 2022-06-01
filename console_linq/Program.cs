@@ -11,4 +11,6 @@ using console_linq.Examples;
 
 //WhereObjects.main();
 
-FirstAndFirstDefault.main();
+//FirstAndFirstDefault.main();
+
+LastAndLastOrDefault.main();
