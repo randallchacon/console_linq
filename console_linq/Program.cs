@@ -4,5 +4,5 @@ using console_linq.Examples;
 
 //Menu.show();
 
-ElementAtAndElementAtOrDefault.main();
+SingleAndSingleOrDefault.main();
 

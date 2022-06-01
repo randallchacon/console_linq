@@ -49,6 +49,9 @@ namespace console_linq.Objects.Menu
                 case 6:
                     LastAndLastOrDefault.main();
                     break;
+                case 7:
+                    ElementAtAndElementAtOrDefault.main();
+                    break;
                 default:
                     Console.WriteLine("Incorrect option...");
                     break;
