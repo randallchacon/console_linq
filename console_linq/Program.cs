@@ -2,4 +2,6 @@
 
 //BasicListAndRange.main();
 
-DeferredExecution.main();
+//DeferredExecution.main();
+
+WhereFunction.main();
