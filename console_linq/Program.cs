@@ -1,4 +1,7 @@
-﻿using console_linq.Examples;
+﻿/*Developed by Randall Chacón*/
+/*Uncomment class by class to test*/
+
+using console_linq.Examples;
 
 //BasicListAndRange.main();
 
@@ -6,4 +9,6 @@
 
 //WhereFunction.main();
 
-WhereObjects.main();
+//WhereObjects.main();
+
+FirstAndFirstDefault.main();
