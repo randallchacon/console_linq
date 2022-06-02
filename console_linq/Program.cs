@@ -5,7 +5,7 @@ using console_linq.Examples.Order;
 
 //Menu.show();
 
-OrderByAndOrderByDescending.main();
+ThenByAndThenByDescending.main();
 
 
 
