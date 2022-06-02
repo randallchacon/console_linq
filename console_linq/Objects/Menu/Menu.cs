@@ -1,4 +1,5 @@
 ﻿using console_linq.Examples;
+using console_linq.Examples.Filters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +18,9 @@ namespace console_linq.Objects.Menu
             Console.WriteLine("4- WhereObjects");
             Console.WriteLine("5- FirstAndFirstDefault");
             Console.WriteLine("6- LastAndLastOrDefault");
+            Console.WriteLine("7- ElementAtAndElementAtOrDefault");
+            Console.WriteLine("8- SingleAndSingleOrDefault");
+            Console.WriteLine("9- Type filter");
             Console.Write("Choose an option: ");
             
             int numberOption = 0;
@@ -51,6 +55,12 @@ namespace console_linq.Objects.Menu
                     break;
                 case 7:
                     ElementAtAndElementAtOrDefault.main();
+                    break;
+                case 8:
+                    SingleAndSingleOrDefault.main();
+                    break;
+                case 9:
+                    TypeFilter.main();
                     break;
                 default:
                     Console.WriteLine("Incorrect option...");
