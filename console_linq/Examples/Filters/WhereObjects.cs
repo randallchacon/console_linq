@@ -9,7 +9,7 @@ namespace console_linq.Examples
 {
     public static class WhereObjects
     {
-        public static void main()
+        public static void Main()
         {
             var people = new People().peopleList;
 

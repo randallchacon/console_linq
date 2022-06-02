@@ -9,7 +9,7 @@ namespace console_linq.Examples.Order
 {
     public static class ThenByAndThenByDescending
     {
-        public static void main()
+        public static void Main()
         {
             var people = new People().peopleList;
 

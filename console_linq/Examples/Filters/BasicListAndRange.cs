@@ -11,7 +11,7 @@ namespace console_linq.Examples
         static int[] numbers = { 1, 2, 3, 4, 5 };
         static int[] numbersRange = Enumerable.Range(1, 20).ToArray();
 
-        public static void main() {
+        public static void Main() {
             //Methods Syntax or Lambda Sintax
             var evenNumbers = numbers.Where(n => n % 2 == 0).ToList();
 

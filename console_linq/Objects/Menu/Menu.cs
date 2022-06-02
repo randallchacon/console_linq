@@ -36,31 +36,31 @@ namespace console_linq.Objects.Menu
             switch (numberOption)
             {
                 case 1:
-                    BasicListAndRange.main();
+                    BasicListAndRange.Main();
                     break;
                 case 2:
-                    DeferredExecution.main();
+                    DeferredExecution.Main();
                     break;
                 case 3:
-                    WhereFunction.main();    
+                    WhereFunction.Main();    
                     break;
                 case 4:
-                    WhereObjects.main();
+                    WhereObjects.Main();
                     break;
                 case 5:
-                    FirstAndFirstDefault.main();
+                    FirstAndFirstDefault.Main();
                     break;
                 case 6:
-                    LastAndLastOrDefault.main();
+                    LastAndLastOrDefault.Main();
                     break;
                 case 7:
-                    ElementAtAndElementAtOrDefault.main();
+                    ElementAtAndElementAtOrDefault.Main();
                     break;
                 case 8:
-                    SingleAndSingleOrDefault.main();
+                    SingleAndSingleOrDefault.Main();
                     break;
                 case 9:
-                    TypeFilter.main();
+                    TypeFilter.Main();
                     break;
                 default:
                     Console.WriteLine("Incorrect option...");

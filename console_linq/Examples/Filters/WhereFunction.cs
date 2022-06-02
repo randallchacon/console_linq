@@ -8,7 +8,7 @@ namespace console_linq.Examples
 {
     public static class WhereFunction
     {
-        public static void main() { 
+        public static void Main() { 
             int[] numbers = Enumerable.Range(0, 20).ToArray();
             var oddNumbers = numbers.Where(x => x % 2 == 1).ToList();
 

@@ -9,7 +9,7 @@ namespace console_linq.Examples
 {
     public static class LastAndLastOrDefault
     {
-        public static void main() {
+        public static void Main() {
             var people = new People();
 
             var lastPerson = people.peopleList.Last();

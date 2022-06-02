@@ -8,7 +8,7 @@ namespace console_linq.Examples
 {
     public static class DeferredExecution
     {
-        public static void main() { 
+        public static void Main() { 
             int[] numbers = Enumerable.Range(1, 5).ToArray();
             
             var evenNumbers = numbers.Where(n => { //The Where in LINQ is evaluated only if needed, that means deferred execution

@@ -9,7 +9,7 @@ namespace console_linq.Examples
 {
     public static class SingleAndSingleOrDefault
     {
-        public static void main() {
+        public static void Main() {
             var people = new People().peopleList;
 
             var personOver90YearOld = people.Single(p => p.Age > 90);

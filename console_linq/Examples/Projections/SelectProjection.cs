@@ -10,7 +10,7 @@ namespace console_linq.Examples.Projections
 {
     public static class SelectProjection
     {
-        public static void main() {
+        public static void Main() {
             var people = new People().peopleList;
 
             var names = people.Select(p => p.Name).ToList();

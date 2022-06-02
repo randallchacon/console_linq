@@ -23,7 +23,7 @@ namespace console_linq.Examples.Filters
             public override string? Name { get; set; }
         }
 
-        public static void main()
+        public static void Main()
         {
             var objectList = new List<object>() { "Randall", 5, 2, "María", true };
 

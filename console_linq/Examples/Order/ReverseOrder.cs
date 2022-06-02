@@ -9,7 +9,7 @@ namespace console_linq.Examples.Order
 {
     public static class ReverseOrder
     {
-        public static void main() {
+        public static void Main() {
 
             var numbersReverse = Enumerable.Range(1, 20).Reverse();
 
