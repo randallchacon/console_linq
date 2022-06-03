@@ -7,6 +7,7 @@ using console_linq.Examples.Scalar;
 using console_linq.Examples.Quantifiers;
 using console_linq.Examples.Pagination;
 using console_linq.Examples.Grouping;
+using console_linq.Examples.LinkingColletions;
 
 //Menu.show();
 
@@ -42,6 +43,10 @@ using console_linq.Examples.Grouping;
 
 //GroupBySimple.Main();
 
-GroupByWithAgeRange.Main();
+//GroupByWithAgeRange.Main();
+
+//JoinOrInnerJoin.Main();
+
+GroupJoinOrLeftJoin.Main();
 
 
