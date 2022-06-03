@@ -6,6 +6,7 @@ using console_linq.Examples.Projections;
 using console_linq.Examples.Scalar;
 using console_linq.Examples.Quantifiers;
 using console_linq.Examples.Pagination;
+using console_linq.Examples.Grouping;
 
 //Menu.show();
 
@@ -37,6 +38,10 @@ using console_linq.Examples.Pagination;
 
 //PaginationExample.Main();
 
-TakeWhileAndSkipWhile.Main();
+//TakeWhileAndSkipWhile.Main();
+
+//GroupBySimple.Main();
+
+GroupByWithAgeRange.Main();
 
 
