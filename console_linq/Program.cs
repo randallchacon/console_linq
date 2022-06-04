@@ -54,6 +54,8 @@ using console_linq.Examples.Sets;
 
 //UnionAndUnionBy.Main();
 
-ExceptAndExceptBy.Main();
+//ExceptAndExceptBy.Main();
+
+IntersectAndIntersectBy.Main();
 
 
