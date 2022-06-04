@@ -9,6 +9,7 @@ using console_linq.Examples.Pagination;
 using console_linq.Examples.Grouping;
 using console_linq.Examples.LinkingColletions;
 using console_linq.Examples.Sets;
+using console_linq.Examples.Miscellaneous;
 
 //Menu.show();
 
@@ -56,6 +57,14 @@ using console_linq.Examples.Sets;
 
 //ExceptAndExceptBy.Main();
 
-IntersectAndIntersectBy.Main();
+//IntersectAndIntersectBy.Main();
 
+//ConcatMiscellaneous.Main();
 
+//SequenceEqualsMiscellaneous.Main();
+
+//ZipMiscellaneous.Main();
+
+//ChunkMiscellaneous.Main();
+
+TryGetNonEnumaratedCountMiscellaneous.Main();
