@@ -50,6 +50,8 @@ using console_linq.Examples.Sets;
 
 //GroupJoinOrLeftJoin.Main();
 
-DistinctAndDistinctBy.Main();
+//DistinctAndDistinctBy.Main();
+
+UnionAndUnionBy.Main();
 
 
