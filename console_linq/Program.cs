@@ -8,6 +8,7 @@ using console_linq.Examples.Quantifiers;
 using console_linq.Examples.Pagination;
 using console_linq.Examples.Grouping;
 using console_linq.Examples.LinkingColletions;
+using console_linq.Examples.Sets;
 
 //Menu.show();
 
@@ -47,6 +48,8 @@ using console_linq.Examples.LinkingColletions;
 
 //JoinOrInnerJoin.Main();
 
-GroupJoinOrLeftJoin.Main();
+//GroupJoinOrLeftJoin.Main();
+
+DistinctAndDistinctBy.Main();
 
 
