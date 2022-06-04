@@ -52,6 +52,8 @@ using console_linq.Examples.Sets;
 
 //DistinctAndDistinctBy.Main();
 
-UnionAndUnionBy.Main();
+//UnionAndUnionBy.Main();
+
+ExceptAndExceptBy.Main();
 
 
